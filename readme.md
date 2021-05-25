@@ -5,7 +5,6 @@
 Add file to staging
 ```bash
 git add <file>
-    3) git add . => adds all files in folder
 ```
 
 Add 2 files to staging
@@ -18,25 +17,45 @@ Add all files in current folder to staging
 git add .
 ```
 
-git restore "file" ... => restores file/s => provided not added
+Restores file/s => provided not added
+```bash
+git restore <file> ...
+```
+ 
+Removes file from staging, back to working stage
+```bash
+git restore --staged <file> ...
+```
 
-git restore --staged "file" ... => removes file from staging, back to working stage
+Commits with message
+```bash
+git commit -m "insert message"
+```
 
-git commit -m "insert message" => commits with message <br />
+Shows existing branches 
+```bash
+git branch
+```
+ 
+Creates new branch
+```bash
+git branch "branch name"
+```
 
-git commit -m "insert message" => commits with message
+Moves head to branch => working repo is now in branch
+```bash
+git checkout "branch name"
+```
 
-git branch => shows existing branches 
+Merge branch to main
+```bash
+checkout to main
+git merge "branch name"
+```
+shows the status of git
+```bash
+git status
+```
 
-git branch "branch name" => creates new branch
-
-git checkout "branch name" => moves head to branch => working repo is now in branch
-
-git merge "branch name" => merges branch to main
-    Steps:
-    1) checkout to main
-    2) git merge "branch name"
-
-git status => shows the status of git
 
 
