@@ -2,7 +2,7 @@
 
 Git tutorial <br />
 
-style="color:orange;">git</span> add <filename> => adds <filename> to staging <br />
+git add <filename> => adds <filename> to staging <br />
     1) git add <filename> => adds individual file <br />
     2) git add <filename1> <filename1> => adds 2 files <br />
     3) git add . => adds all files in folder <br />
