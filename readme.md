@@ -1,3 +1,3 @@
-GoSchool
+# GoSchool Git tutorial
 
-Git tutorial
+Git tutorial - push/pull 
