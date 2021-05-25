@@ -1,11 +1,22 @@
 # GoSchool Git tutorial
 
-Git tutorial <br />
+### Git tutorial <br />
 
-git add "filename" => adds "filename" to staging
-    1) git add "filename" => adds individual file
-    2) git add "filename1" "filename1" => adds 2 files
+Add file to staging
+```bash
+git add <file>
     3) git add . => adds all files in folder
+```
+
+Add 2 files to staging
+```bash
+git add <file1> <file2>
+```
+
+Add all files in current folder to staging
+```bash
+git add .
+```
 
 git restore "file" ... => restores file/s => provided not added
 
