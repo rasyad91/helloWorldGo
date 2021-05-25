@@ -52,6 +52,7 @@ Merge branch to main
 checkout to main
 git merge "branch name"
 ```
+
 shows the status of git
 ```bash
 git status
